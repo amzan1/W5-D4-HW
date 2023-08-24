@@ -5,11 +5,16 @@ import bg from '../assets/Frame 1.png'
 function Home() {
   return (
     <>
+      
       <Navbar/>
-      <img src={bg} alt="" />
-        
+      <div className='bg-gradient-to-t from-white to-[#CCF1FF]'>
+        <div>
+        <img src={bg} alt="" />
+        </div>
         <Books/>
+        </div>
         <Footer/>
+
     </>
   )
 }
